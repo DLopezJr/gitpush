@@ -15,6 +15,7 @@ main()
 {
         until gitpush "$@"; do
                 printf "\n${GREEN}[$TIME]${RESET} | ${RED}[ERROR: Push failed.]${RESET}\n\n";
+                sleep 1; # Slows down output speed
         done;
 
 }; main "$@"
