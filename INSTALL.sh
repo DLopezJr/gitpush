@@ -2,4 +2,4 @@
 #PURPOSE: Installer 
 
 cp    gitpush.sh "$TMP/gitpush";
-chmod 755        "$TMP/fp";
+chmod 755        "$TMP/gitpush";
