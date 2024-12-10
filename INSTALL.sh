@@ -2,7 +2,7 @@
 #PURPOSE: Installer 
 
 if [ $(id -u) -eq 0 ]; then {
-	PREFIX="/usr/local/bin";
+	PREFIX="/usr/bin";
 	cp    gitpush.sh "$PREFIX/gitpush";
 	chmod 755        "$PREFIX/gitpush";
 } else {
